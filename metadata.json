@@ -1,0 +1,37 @@
+{
+  "name": "eimhinlaverty-vim_up",
+  "version": "0.1.0",
+  "author": "Eimhin Laverty",
+  "summary": "Install vim and upload your configuration file to a VM",
+  "license": "Apache-2.0",
+  "source": "git://github.com/eimlav/vim_up.git",
+  "dependencies": [
+    {
+      "name": "puppetlabs/package",
+      "version_requirement": ">= 0.1.0 < 1.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ],
+  "pdk-version": "1.7.0",
+  "template-url": "file:///opt/puppetlabs/pdk/share/cache/pdk-templates.git",
+  "template-ref": "1.7.0-0-g57412ed"
+}
