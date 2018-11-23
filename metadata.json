@@ -5,6 +5,7 @@
   "summary": "Install vim and upload your configuration file to a VM",
   "license": "Apache-2.0",
   "source": "git://github.com/eimlav/vim_up.git",
+  "project_page": "https://github.com/eimlav/vim_up",
   "dependencies": [
     {
       "name": "puppetlabs/package",
@@ -28,7 +29,7 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 4.7.0 < 6.0.0"
+      "version_requirement": ">= 4.7.0 < 7.0.0"
     }
   ],
   "pdk-version": "1.7.0",
